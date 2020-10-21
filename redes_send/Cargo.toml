@@ -1,0 +1,12 @@
+[package]
+name = "redes_send"
+version = "0.1.0"
+authors = ["gustavohd18 <gustavo.hernandez@acad.pucrs.br>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pnet = "0.26.0"
+libc = "0.2.79"
+pnet_datalink = "0.26.0"
